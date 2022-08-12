@@ -18,7 +18,7 @@ proxies:
   server: hynesconstruction.com
   port: 443
   type: vless
-  uuid: 42592813-6a0e-424b-ae36-b54d435fd647
+  uuid: 2cd43abf-36b5-413f-8dd7-9b51b19ab87d
   cipher: auto
   tls: true
   skip-cert-verify: true
