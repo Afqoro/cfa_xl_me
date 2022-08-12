@@ -1,0 +1,52 @@
+proxies:
+#26-07
+- name: 🇮🇩 F-BIZNET
+  type: vmess
+  server: hynesconstruction.com
+  port: 443
+  uuid: 9e274a1a-7569-496b-a8a8-39a9e3cce7c7
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: id3.v2-ray.com
+  network: ws
+  ws-opts:
+    path: /fastssh/sdfdf/62df851d06c8c/
+    headers:
+      Host: id3.v2-ray.com
+#26-07
+- name: 🇮🇩 F-UNINET
+  type: vmess
+  server: hynesconstruction.com
+  port: 443
+  uuid: e715caca-c520-4388-bfc0-09707170867a
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: id1.v2-ray.com
+  network: ws
+  ws-opts:
+    path: /fastssh/sdfdf/62df8580f3c5d/
+    headers:
+      Host: id1.v2-ray.com
+#26-07
+- name: 🇮🇩 F-ATHA
+  type: vmess
+  server: hynesconstruction.com
+  port: 443
+  uuid: fbf78c1f-6f42-45e0-a1a9-67de703b90f8
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: id2.v2-ray.com
+  network: ws
+  ws-opts:
+    path: /fastssh/asdsd/62df85f07786e/
+    headers:
+      Host: id2.v2-ray.com

@@ -1,0 +1,85 @@
+proxies:
+#26-07
+- name: 🇮🇩 OPT-ATHA
+  server: hynesconstruction.com
+  port: 443
+  type: vmess
+  uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5
+  alterId: 16
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: idv-1.openv2ray.com
+  network: ws
+  ws-opts:
+    path: /u/opentunnel.net-ddfsdr
+    headers:
+      Host: idv-1.openv2ray.com
+  udp: true
+#26-07
+- name: 🇮🇩 OPT-BIZNET
+  server: hynesconstruction.com
+  port: 443
+  type: vmess
+  uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5
+  alterId: 16
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: idv-2.openv2ray.com
+  network: ws
+  ws-opts:
+    path: /u/opentunnel.net-fsdff
+    headers:
+      Host: idv-2.openv2ray.com
+  udp: true
+#26-07
+- name: 🇸🇬 OPT-OVH
+  server: hynesconstruction.com
+  port: 443
+  type: vmess
+  uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5
+  alterId: 16
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: sgv-2.openv2ray.com
+  network: ws
+  ws-opts:
+    path: /u/opentunnel.net-dfgfg
+    headers:
+      Host: sgv-2.openv2ray.com
+#26-07
+- name: 🇸🇬 OPT-SGDO
+  server: hynesconstruction.com
+  port: 443
+  type: vmess
+  uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5
+  alterId: 16
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: sgv-3.openv2ray.com
+  network: ws
+  ws-opts:
+    path: /u/opentunnel.net-tryty
+    headers:
+      Host: sgv-3.openv2ray.com
+  udp: true
+#25-07
+- name: 🇸🇬 OPT-LINODE
+  server: hynesconstruction.com
+  port: 443
+  type: vmess
+  uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5
+  alterId: 16
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: sgv-1.openv2ray.com
+  network: ws
+  ws-opts:
+    path: /u/opentunnel.net-dsfdfx
+    headers:
+      Host: sgv-1.openv2ray.com
+  udp: true

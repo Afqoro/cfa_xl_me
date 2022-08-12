@@ -1,0 +1,28 @@
+proxies:
+#09-08
+- name: 🇮🇩 GO-OCE-ATHA
+  server: gamemax.prem.my.id
+  port: 443
+  type: trojan
+  password: 3b86748d-e32a-47a1-a722-213c1648c362
+  skip-cert-verify: true
+  sni: id-atha3.rockstartun.xyz
+  network: ws
+  ws-opts:
+    path: /websocket
+    headers:
+      Host: id-atha3.rockstartun.xyz
+  udp: true
+- name: 🇮🇩 GO-OCE-LINKGO
+  server: gamemax.prem.my.id
+  port: 443
+  type: trojan
+  password: a4728a89-60c2-44dc-98af-9b185b5f0477
+  network: ws
+  sni: id-linkgo1.rockstartun.xyz
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /websocket
+    headers:
+        Host: id-linkgo1.rockstartun.xyz

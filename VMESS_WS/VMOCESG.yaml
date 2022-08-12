@@ -1,0 +1,52 @@
+proxies:
+#26-07
+- name: 🇸🇬 OC-CTB1
+  type: vmess
+  server: hynesconstruction.com
+  port: 443
+  uuid: 16ed609c-0d23-4aa9-9553-5e389a752579
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: sg1-ctb.v2rayserv.com
+  network: ws
+  ws-opts:
+    path: /sshocean
+    headers:
+      Host: sg1-ctb.v2rayserv.com
+#26-07
+- name: 🇸🇬 OC-OVH1
+  type: vmess
+  server: hynesconstruction.com
+  port: 443
+  uuid: 9f3b2579-bfcc-48b6-8592-c030a4e563a4
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: sgovh1.v2rayserv.com
+  network: ws
+  ws-opts:
+    path: /sshocean
+    headers:
+      Host: sgovh1.v2rayserv.com
+#26-07
+- name: 🇸🇬 OC-SG03
+  type: vmess
+  server: hynesconstruction.com
+  port: 443
+  uuid: 52bec4df-a2c9-42a1-9237-6b5aed2115c9
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: sg3.v2rayserv.com
+  network: ws
+  ws-opts:
+    path: /sshocean
+    headers:
+      Host: sg3.v2rayserv.com

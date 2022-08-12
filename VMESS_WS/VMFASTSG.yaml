@@ -1,0 +1,52 @@
+proxies:
+#26-07
+- name: 🇸🇬 F-AMP
+  type: vmess
+  server: hynesconstruction.com
+  port: 443
+  uuid: c8e45d3f-3474-454e-8b91-cae482cc2a9a
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: sg-atha.v2-ray.com
+  network: ws
+  ws-opts:
+    path: /fastssh/dfgf/62df83e22ccf2/
+    headers:
+      Host: sg-atha.v2-ray.com
+#26-07
+- name: 🇸🇬 F-HE1
+  type: vmess
+  server: hynesconstruction.com
+  port: 443
+  uuid: b9296a34-8c1d-4232-b7f7-456ac8117303
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: sg1.v2-ray.com
+  network: ws
+  ws-opts:
+    path: /fastssh/dfsdf/62df843ecc108/
+    headers:
+      Host: sg1.v2-ray.com
+#26-07
+- name: 🇸🇬 F-UPDGW
+  type: vmess
+  server: hynesconstruction.com
+  port: 443
+  uuid: fbf78c1f-6f42-45e0-a1a9-67de703b90f8
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: sg3.v2-ray.com
+  network: ws
+  ws-opts:
+    path: /fastssh/dsdfdf/62df84b12199d/
+    headers:
+      Host: sg3.v2-ray.com

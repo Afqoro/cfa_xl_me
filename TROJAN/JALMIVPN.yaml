@@ -1,0 +1,98 @@
+proxies:
+#13-08
+- name: 🇮🇩 GO-GLOBAL1
+  server: hynesconstruction.com
+  port: 443
+  type: trojan
+  password: whyvpn-ftyfgh
+  skip-cert-verify: true
+  sni: dewabiz.kitu.xyz
+  network: ws
+  ws-opts:
+    path: /trojan-go
+    headers:
+      Host: dewabiz.kitu.xyz
+  udp: true
+- name: 🇮🇩 GO-GLOBAL2
+  server: hynesconstruction.com
+  port: 443
+  type: trojan
+  password: whyvpn-gdsdf
+  skip-cert-verify: true
+  sni: dewabiz2.kitu.xyz
+  network: ws
+  ws-opts:
+    path: /trojan-go
+    headers:
+      Host: dewabiz2.kitu.xyz
+  udp: true
+- name: 🇮🇩 GO-NUSA
+  server: hynesconstruction.com
+  port: 443
+  type: trojan
+  password: whyvpn-reter
+  skip-cert-verify: true
+  sni: nusa1.kitu.xyz
+  network: ws
+  ws-opts:
+    path: /trojan-go
+    headers:
+      Host: nusa1.kitu.xyz
+  udp: true  
+- name: 🇮🇩 GO-SGDO2
+  server: hynesconstruction.com
+  port: 443
+  type: trojan
+  password: whyvpn-rsdf
+  skip-cert-verify: true
+  sni: do2.kitu.xyz
+  network: ws
+  ws-opts:
+    path: /trojan-go
+    headers:
+      Host: do2.kitu.xyz
+  udp: true
+- name: 🇮🇩 GR-GLOBAL1
+  type: trojan
+  server: hynesconstruction.com
+  port: 443
+  password: 112254f2-53a3-4abf-bfd3-bf155a22a911
+  udp: true
+  sni: dewabiz.kitu.xyz
+  skip-cert-verify: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: xray-trojan-grpc
+- name: 🇮🇩 GR-GLOBAL2
+  type: trojan
+  server: hynesconstruction.com
+  port: 443
+  password: 1f67188b-760e-4d81-b84f-5f8ba0d94a32
+  udp: true
+  sni: dewabiz2.kitu.xyz
+  skip-cert-verify: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: xray-trojan-grpc
+- name: 🇮🇩 GR-NUSA
+  type: trojan
+  server: hynesconstruction.com
+  port: 443
+  password: d1d297f9-37dd-4bcd-a956-f4a8db0b1a8d
+  udp: true
+  sni: nusa1.kitu.xyz
+  skip-cert-verify: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: xray-trojan-grpc
+- name: 🇸🇬 GR-SGDO
+  type: trojan
+  server: hynesconstruction.com
+  port: 443
+  password: d9d3d4dd-1865-4da7-9a3e-07641fa5ace8
+  udp: true
+  sni: do1.kitu.xyz
+  skip-cert-verify: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: xray-trojan-grpc

@@ -1,0 +1,67 @@
+proxies:
+#08-08
+- name: 🇸🇬 GOF-OVH
+  server: gamemax.prem.my.id
+  port: 443
+  type: trojan
+  password: ec99c570-1744-11ed-b039-225401db9d57
+  skip-cert-verify: true
+  sni: sg-ovh.tjvpn.org
+  network: ws
+  ws-opts:
+    path: /fastssh
+    headers:
+      Host: sg-ovh.tjvpn.org
+  udp: true
+- name: 🇸🇬 GFF-OVH
+  type: trojan
+  server: sg-ovh.tjvpn.org
+  port: 443
+  password: ec99c570-1744-11ed-b039-225401db9d57
+  udp: true
+  sni: spotify.com
+  skip-cert-verify: true
+
+- name: 🇸🇬 GOF-HE
+  server: gamemax.prem.my.id
+  port: 443
+  type: trojan
+  password: 219cf270-1745-11ed-b430-225401db9d57
+  skip-cert-verify: true
+  sni: sghe.tjvpn.org
+  network: ws
+  ws-opts:
+    path: /fastssh
+    headers:
+      Host: sghe.tjvpn.org
+  udp: true
+- name: 🇸🇬 GFF-HE
+  type: trojan
+  server: sghe.tjvpn.org
+  port: 443
+  password: 219cf270-1745-11ed-b430-225401db9d57
+  udp: true
+  sni: spotify.com
+  skip-cert-verify: true
+
+- name: 🇮🇩 GOF-IKD
+  server: gamemax.prem.my.id
+  port: 443
+  type: trojan
+  password: 293ca940-1745-11ed-b539-225401db9d57
+  skip-cert-verify: true
+  sni: id-1.tjvpn.org
+  network: ws
+  ws-opts:
+    path: /fastssh
+    headers:
+      Host: id-1.tjvpn.org
+  udp: true
+- name: 🇮🇩 GFF-IKD
+  type: trojan
+  server: id-1.tjvpn.org
+  port: 443
+  password: 293ca940-1745-11ed-b539-225401db9d57
+  udp: true
+  sni: spotify.com
+  skip-cert-verify: true

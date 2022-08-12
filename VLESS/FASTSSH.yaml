@@ -1,0 +1,44 @@
+proxies:
+#26-07
+- name: 🇮🇩 FAST-UNINET
+  server: hynesconstruction.com
+  port: 443
+  type: vless
+  uuid: 81f1f510-3ca7-4734-8956-0f4fce670af5
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: id-1.vless.co
+  network: ws
+  ws-opts:
+    path: /fastssh/shed/62f3282d553a7/
+    headers:
+      Host: id-1.vless.co
+- name: 🇸🇬 FAST-UPDGW
+  server: hynesconstruction.com
+  port: 443
+  type: vless
+  uuid: 81f1f510-3ca7-4734-8956-0f4fce670af5
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: sg2.vless.co
+  network: ws
+  ws-opts:
+    path: /fastssh/bssds/62f3287dbd387/
+    headers:
+      Host: sg2.vless.co
+- name: 🇸🇬 FAST-HE
+  server: hynesconstruction.com
+  port: 443
+  type: vless
+  uuid: 81f1f510-3ca7-4734-8956-0f4fce670af5
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: sg1.vless.co
+  network: ws
+  ws-opts:
+    path: /fastssh/sfse/62f328d99d251/
+    headers:
+      Host: sg1.vless.co

@@ -1,0 +1,70 @@
+proxies:
+- name: 🇮🇩 GOH-HERZA
+  server: hynesconstruction.com
+  port: 443
+  type: trojan
+  password: 242bad40-1a62-11ed-89b3-1239d0255272
+  skip-cert-verify: true
+  sni: idtj-herza.bonds.id
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: idtj-herza.bonds.id
+  udp: true
+
+- name: 🇮🇩 GOH-BANT
+  server: hynesconstruction.com
+  port: 443
+  type: trojan
+  password: 136c4f90-1785-11ed-b0e3-1239d0255272
+  skip-cert-verify: true
+  sni: id5-trojan.bonds.id
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: id5-trojan.bonds.id
+  udp: true
+
+- name: 🇮🇩 HOWDY-UNI
+  server: hynesconstruction.com
+  port: 443
+  type: trojan
+  password: ac0a58a0-1785-11ed-8941-1239d0255272
+  skip-cert-verify: true
+  sni: idtj-uninet.bonds.id
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: idtj-uninet.bonds.id
+  udp: true
+
+- name: 🇮🇩 GOH-IKD
+  server: hynesconstruction.com
+  port: 443
+  type: trojan
+  password: 35461b50-1785-11ed-9273-1239d0255272
+  skip-cert-verify: true
+  sni: idtj-ikd.bonds.id
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: idtj-ikd.bonds.id
+  udp: true
+
+- name: 🇮🇩 GOH-BIZJAK
+  server: hynesconstruction.com
+  port: 443
+  type: trojan
+  password: 53e0fc70-1784-11ed-8775-1239d0255272
+  skip-cert-verify: true
+  sni: id2-trojan.bonds.id
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: id2-trojan.bonds.id
+  udp: true

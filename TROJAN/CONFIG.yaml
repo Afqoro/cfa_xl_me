@@ -1,0 +1,162 @@
+proxy-providers:
+  PG_HOWDYID:
+    type: http
+    path: "./proxy_provider/HOWDYID.yaml"
+    url: https://raw.githubusercontent.com/Afqoro/cfa_xl_me/main/TROJAN/HOWDYID.yaml
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 10
+  PG_HOWDYSG:
+    type: http
+    path: "./proxy_provider/HOWDYSG.yaml"
+    url: https://raw.githubusercontent.com/Afqoro/cfa_xl_me/main/TROJAN/HOWDYSG.yaml
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 10
+  PG_FASTSSH:
+    type: http
+    path: "./proxy_provider/FASTSSH.yaml"
+    url: https://raw.githubusercontent.com/Afqoro/cfa_xl_me/main/TROJAN/FASTSSH.yaml
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 10
+  PG_JUPITER:
+    type: http
+    path: "./proxy_provider/JUPITER.yaml"
+    url: https://raw.githubusercontent.com/Afqoro/cfa_xl_me/main/TROJAN/JUPITER.yaml
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 10
+  PG_JAGOANSSH:
+    type: http
+    path: "./proxy_provider/JAGOANSSH.yaml"
+    url: https://raw.githubusercontent.com/Afqoro/cfa_xl_me/main/TROJAN/JAGOANSSH.yaml
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 10      
+  PG_SSHOCEAN:
+    type: http
+    path: "./proxy_provider/SSHOCEAN.yaml"
+    url: https://raw.githubusercontent.com/Afqoro/cfa_xl_me/main/TROJAN/SSHOCEAN.yaml
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 10
+  PG_JALMIVPN:
+    type: http
+    path: "./proxy_provider/JALMIVPN.yaml"
+    url: https://raw.githubusercontent.com/Afqoro/cfa_xl_me/main/TROJAN/JALMIVPN.yaml
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 10      
+proxy-groups:
+- name: HOWID
+  type: url-test
+  disable-udp: false
+  use:
+  - PG_HOWDYID
+  url: http://www.gstatic.com/generate_204
+  interval: '10'
+  tolerance: '5'
+- name: HOWSG
+  type: url-test
+  disable-udp: false
+  use:
+  - PG_HOWDYSG
+  url: http://www.gstatic.com/generate_204
+  interval: '10'
+  tolerance: '5'
+- name: FASTSSH
+  type: url-test
+  disable-udp: false
+  use:
+  - PG_FASTSSH
+  url: http://www.gstatic.com/generate_204
+  interval: '10'
+  tolerance: '5'
+- name: JUPITER
+  type: url-test
+  disable-udp: false
+  use:
+  - PG_JUPITER
+  url: http://www.gstatic.com/generate_204
+  interval: '10'
+  tolerance: '5'
+- name: JAGOANSSH
+  type: url-test
+  disable-udp: false
+  use:
+  - PG_JAGOANSSH
+  url: http://www.gstatic.com/generate_204
+  interval: '10'
+  tolerance: '5'
+- name: SSHOCEAN
+  type: url-test
+  disable-udp: false
+  use:
+  - PG_SSHOCEAN
+  url: http://www.gstatic.com/generate_204
+  interval: '10'
+  tolerance: '5'
+- name: JALMIVPN
+  type: url-test
+  disable-udp: false
+  use:
+  - PG_JALMIVPN
+  url: http://www.gstatic.com/generate_204
+  interval: '10'
+  tolerance: '5'  
+- name: PILIHAN
+  type: select
+  disable-udp: false
+  use:
+  - PG_HOWDYID
+  - PG_HOWDYSG
+  - PG_FASTSSH
+  - PG_JUPITER
+  - PG_JAGOANSSH
+  - PG_SSHOCEAN
+  - PG_JALMIVPN  
+  url: http://www.gstatic.com/generate_204
+  interval: '10'
+port: 7890
+socks-port: 7891
+redir-port: 7892
+mixed-port: 7893
+tproxy-port: 7895
+ipv6: false
+mode: rule
+log-level: silent
+allow-lan: true
+external-controller: 0.0.0.0:9090
+secret: ""
+bind-address: "*"
+unified-delay: true
+profile:
+  store-selected: true
+dns:
+  enable: true
+  ipv6: false
+  enhanced-mode: redir-host
+  listen: 0.0.0.0:7874
+  nameserver:
+    - 1.1.1.1
+    - 8.8.8.8
+  fallback:
+    - 1.0.0.1
+    - https://dns.cloudflare.com/dns-query
+    - https://dns.google/dns-query
+    - 112.215.203.254
+  default-nameserver:
+    - 1.1.1.1
+    - 8.8.8.8
+    - 112.215.203.254
+rules:
+- IP-CIDR,198.18.0.1/16,REJECT,no-resolve
+- MATCH,GLOBAL

@@ -1,0 +1,29 @@
+proxies:
+#08-08
+- name: 🇸🇬 J-CONTABO
+  server: hynesconstruction.com
+  port: 443
+  type: trojan
+  password: jupitervpn-fgdg
+  skip-cert-verify: true
+  sni: sg3.jupitervpn.me
+  network: ws
+  ws-opts:
+    path: /trojan-go
+    headers:
+      Host: sg3.jupitervpn.me
+  udp: true
+#27-07
+- name: 🇮🇩 J-UNI3
+  server: hynesconstruction.com
+  port: 443
+  type: trojan
+  password: jupitervpn-rtdfgd
+  skip-cert-verify: true
+  sni: id3.jupitervpn.me
+  network: ws
+  ws-opts:
+    path: /trojan-go
+    headers:
+      Host: id3.jupitervpn.me
+  udp: true

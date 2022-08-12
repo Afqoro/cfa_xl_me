@@ -1,0 +1,56 @@
+proxies:
+- name: 🇸🇬 GOH-HE1
+  server: hynesconstruction.com
+  port: 443
+  type: trojan
+  password: 941e9100-1784-11ed-bfc2-1239d0255272
+  skip-cert-verify: true
+  sni: sg1-trojan.bonds.id
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: sg1-trojan.bonds.id
+  udp: true
+
+- name: 🇸🇬 GOH-HEMUX
+  server: hynesconstruction.com
+  port: 443
+  type: trojan
+  password: 7f9c0650-1785-11ed-94a1-1239d0255272
+  skip-cert-verify: true
+  sni: sg6-trojan.bonds.id
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: sg6-trojan.bonds.id
+  udp: true
+
+- name: 🇸🇬 GOH-UPD
+  server: hynesconstruction.com
+  port: 443
+  type: trojan
+  password: 5302b7b0-1785-11ed-8d57-1239d0255272
+  skip-cert-verify: true
+  sni: sg8-trojan.bonds.id
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: sg8-trojan.bonds.id
+  udp: true
+
+- name: 🇸🇬 GOH-OVH
+  server: hynesconstruction.com
+  port: 443
+  type: trojan
+  password: abc69b60-1784-11ed-ac2a-1239d0255272
+  skip-cert-verify: true
+  sni: sgovh-trojan.bonds.id
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: sgovh-trojan.bonds.id
+  udp: true

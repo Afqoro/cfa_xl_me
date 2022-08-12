@@ -1,0 +1,72 @@
+proxies:
+#26-07
+- name: 🇮🇩 OCE-NUSA
+  server: hynesconstruction.com
+  port: 443
+  type: vless
+  uuid: 7e417d04-30e8-47cb-be7f-c795c4108451
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: id2.v2vless.xyz
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: id2.v2vless.xyz
+- name: 🇮🇩 OCE-RAJASA
+  server: hynesconstruction.com
+  port: 443
+  type: vless
+  uuid: 42592813-6a0e-424b-ae36-b54d435fd647
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: id4.v2vless.xyz
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: id4.v2vless.xyz
+- name: 🇮🇩 OCE-LINKGO
+  server: hynesconstruction.com
+  port: 443
+  type: vless
+  uuid: 5aa45878-d662-48c4-8e2d-c04da8bd3630
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: id6.v2vless.xyz
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: id6.v2vless.xyz
+- name: 🇸🇬 OCE-CTB2
+  server: hynesconstruction.com
+  port: 443
+  type: vless
+  uuid: 2fb0e4ce-774e-452f-b29d-781b5f033951
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: sg2-ctb.v2vless.xyz
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: sg2-ctb.v2vless.xyz
+- name: 🇸🇬 OCE-OVH1
+  server: hynesconstruction.com
+  port: 443
+  type: vless
+  uuid: 82fa0d42-ef74-43b4-b897-c9d0a0f364ae
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: sgovh1.v2vless.xyz
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: sgovh1.v2vless.xyz

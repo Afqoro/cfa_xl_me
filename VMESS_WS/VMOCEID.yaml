@@ -1,0 +1,66 @@
+proxies:
+#03-08
+- name: 🇮🇩 OC-MENARA
+  type: vmess
+  server: hynesconstruction.com
+  port: 443
+  uuid: 14a9783c-9708-4721-810a-8d01486d0e06
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: id1.v2rayserv.com
+  network: ws
+  ws-opts:
+    path: /sshocean
+    headers:
+      Host: id1.v2rayserv.com
+- name: 🇮🇩 OC-NUSA
+  type: vmess
+  server: hynesconstruction.com
+  port: 443
+  uuid: 6c9106e6-8612-4f91-9c65-d3a79efda7a5
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: id2.v2rayserv.com
+  network: ws
+  ws-opts:
+    path: /sshocean
+    headers:
+      Host: id2.v2rayserv.com
+- name: 🇮🇩 OC-RAJASA
+  type: vmess
+  server: hynesconstruction.com
+  port: 443
+  uuid: 07455346-f3da-4184-bdd7-a46a804fc7f9
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: id4.v2rayserv.com
+  network: ws
+  ws-opts:
+    path: /sshocean
+    headers:
+      Host: id4.v2rayserv.com
+- name: 🇮🇩 OC-LINKGO
+  type: vmess
+  server: hynesconstruction.com
+  port: 443
+  uuid: ce12f906-b0e6-4df1-b131-6c0d25609e07
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: id6.v2rayserv.com
+  network: ws
+  ws-opts:
+    path: /sshocean
+    headers:
+      Host: id6.v2rayserv.com
