@@ -4,16 +4,16 @@ proxies:
   server: hynesconstruction.com
   port: 443
   type: vless
-  uuid: 7e417d04-30e8-47cb-be7f-c795c4108451
+  uuid: 1d79ca38-9caa-47c0-bc4f-e5dc2eebb13a
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: id2.v2vless.xyz
+  servername: id1.v2vless.xyz
   network: ws
   ws-opts:
     path: /vless
     headers:
-      Host: id2.v2vless.xyz
+      Host: id1.v2vless.xyz
 - name: 🇮🇩 OCE-RAJASA
   server: hynesconstruction.com
   port: 443
