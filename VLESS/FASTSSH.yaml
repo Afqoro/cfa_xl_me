@@ -25,7 +25,7 @@ proxies:
   servername: sg2.vless.co
   network: ws
   ws-opts:
-    path: /fastssh/bssds/62f3287dbd387/
+    path: /fastssh/asdse/62f6a12a9dbb8/
     headers:
       Host: sg2.vless.co
 - name: 🇸🇬 FAST-HE
