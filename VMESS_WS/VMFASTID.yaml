@@ -4,7 +4,7 @@ proxies:
   type: vmess
   server: hynesconstruction.com
   port: 443
-  uuid: 9e274a1a-7569-496b-a8a8-39a9e3cce7c7
+  uuid: 72edf457-474c-4641-afaf-7397b958749b
   alterId: 0
   cipher: auto
   udp: true
@@ -13,7 +13,7 @@ proxies:
   servername: id3.v2-ray.com
   network: ws
   ws-opts:
-    path: /fastssh/sdfdf/62df851d06c8c/
+    path: /fastssh/dsfdfer/62f69b5482bfc/
     headers:
       Host: id3.v2-ray.com
 #26-07
